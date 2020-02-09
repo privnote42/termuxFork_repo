@@ -1,0 +1,134 @@
+Package: apt-ftparchive
+Architecture: aarch64
+Installed-Size: 24
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.9-25
+Homepage: https://packages.debian.org/apt
+Depends: libdb, apt (= 1.4.9-25)
+Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
+Filename: dists/stable/main/binary-aarch64/apt-ftparchive_1.4.9-25_aarch64.deb
+Size: 806
+MD5Sum: b0bab827bd4faa521015e22500f8b942
+SHA1: 5373eb3d911741e5f67ddce37fa28ddd898d4cc0
+SHA256: 08b7b5802a6aa695b31fac770730b4464934b0c4b37b8a3385b9c940f2519bd5
+SHA512: cb9edb20f20d3c1fae06f8343c14a1dde8cf5097702853ebeec5d93002489e0848fbb47fd1799e36aef076b3377d89d1d73afb4a7d758040e927894a740b4110
+
+Package: apt
+Architecture: aarch64
+Installed-Size: 3444
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.9-25
+Homepage: https://packages.debian.org/apt
+Depends: coreutils, dpkg, findutils, gpgv, grep, libc++, libcurl, liblzma, sed, termux-licenses, zlib
+Essential: yes
+Conflicts: apt-transport-https, libapt-pkg
+Recommends: game-repo, science-repo
+Replaces: apt-transport-https, libapt-pkg
+Suggests: gnupg, unstable-repo, x11-repo
+Description: Front-end for the dpkg package manager
+Filename: dists/stable/main/binary-aarch64/apt_1.4.9-25_aarch64.deb
+Size: 834838
+MD5Sum: 546c9f3ead0474bcf0bfc63a6a4a83b8
+SHA1: 1ed03800f94080657a3a41c09d3484b6fd00e2c6
+SHA256: 4a001be82b4512102db12da2a5fb682346d97911abfb1f3d548d98fa4daff255
+SHA512: a37b8201f2e05206cb32af2d6de074a582d4f0a5d16a4ee35c36ae24bda0b5779f8cd73ed80974ed15fba25b78f7e1e19dbf01f1d9e7505ed5258cdbc8df19f5
+
+Package: bash
+Architecture: aarch64
+Installed-Size: 3932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.11
+Homepage: https://www.gnu.org/software/bash/
+Breaks: bash-dev
+Depends: libandroid-support, libiconv, ncurses, readline (>= 8.0), termux-tools
+Essential: yes
+Recommends: command-not-found
+Replaces: bash-dev
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Filename: dists/stable/main/binary-aarch64/bash_5.0.11_aarch64.deb
+Size: 787418
+MD5Sum: 3311c22b46099358bd1abb647dd223ad
+SHA1: 9862b0b12fa9f87a751489f239fd85c313b9f978
+SHA256: 40200ac340e2a592e9a1315918fd0543b7c8f3b50699de17f4c19334ac36b1f5
+SHA512: e1c50206c387407b647d562a3ca69b9be870c3a8cfee5da86f2fff4d33849988c47bdc753390fd6ddad97dec1a60d6e61d807be42432fb4b1a6e74614360c34e
+
+Package: busybox
+Architecture: aarch64
+Installed-Size: 932
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.31.1-6
+Homepage: https://busybox.net/
+Conflicts: coreutils (<< 8.25-4)
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Filename: dists/stable/main/binary-aarch64/busybox_1.31.1-6_aarch64.deb
+Size: 415818
+MD5Sum: 0e86970a92c7e8bc07bc4ce570db265c
+SHA1: 94db3c35c2a77ee244d07806b55a46632bbc11bd
+SHA256: 1c4c94aab85fdb17c1ab6819dbce6be2b58d9704fad0ba39657f5043d44f892f
+SHA512: b871d6c14e64807f037178a90bf5b98187d3ce9120139dc63c4149db549076b039d67f6de8a8ad53856b0131268031314fa76c8724085622b8549216ffd90558
+
+Package: coreutils
+Architecture: aarch64
+Installed-Size: 2388
+Maintainer: Fredrik Fornwall @fornwall
+Version: 8.31-8
+Homepage: https://www.gnu.org/software/coreutils/
+Breaks: chroot, busybox (<< 1.30.1-4)
+Depends: libandroid-support, libgmp, libiconv
+Essential: yes
+Replaces: chroot, busybox (<< 1.30.1-4)
+Description: Basic file, shell and text manipulation utilities from the GNU project
+Filename: dists/stable/main/binary-aarch64/coreutils_8.31-8_aarch64.deb
+Size: 686562
+MD5Sum: 7ae07f362f0d84f5b5e96aec0fab750d
+SHA1: 982fe2be8dcd8f37e8f47fc1d835fbebe13d0bc1
+SHA256: 520ae18dd53cadef0cb8804abf80c71d2796e5fec67551226f6620e44faf75e0
+SHA512: 1bffabf5fe076a530a621681762e6739f0bf6896affcd563e67a0a35232132f82d9562ffd6ec91f08d28241566f3e3b827faf5bed8f7d3bb40fd74f0e097048e
+
+Package: gnupg
+Architecture: aarch64
+Installed-Size: 4348
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.19
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgnutls, libgpg-error, libksba, libnpth, libsqlite, readline, pinentry, resolv-conf, zlib
+Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
+Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
+Filename: dists/stable/main/binary-aarch64/gnupg_2.2.19_aarch64.deb
+Size: 1103070
+MD5Sum: d43051556423fd382abc04b848d72f98
+SHA1: fba00476157e50ff731d2bc8a0d48f88bc210e77
+SHA256: 349bec0d090c8f5616dfa84e57c6818e5f9b0eedf8538a0b07e71b477bff73e1
+SHA512: 0634d8a4197127e6d20d5a4a0243adf4bb5224deb82fcb94c63420bac841c13dfe5bd2f466182fcbc1468ed8b12d3097b99903c5582b0db9875abddd62528c80
+
+Package: gpgv
+Architecture: aarch64
+Installed-Size: 368
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.19
+Homepage: https://www.gnupg.org/
+Depends: libbz2, libgcrypt, libgpg-error, zlib
+Description: GNU privacy guard - signature verification tool
+Filename: dists/stable/main/binary-aarch64/gpgv_2.2.19_aarch64.deb
+Size: 139628
+MD5Sum: 7366a253fbb5cedfa2cff7de81a1c27c
+SHA1: 13e3f9e0282c2d101c9cbb16d9e80d8536787ab1
+SHA256: 827bb3fa1a73b627f0097a6f559c02d623fb4dece9f106762b4892b5f0e47d0a
+SHA512: f07bdad406824cd1cd809722a4d10f133f3e2a49e3a1045d6457ccafafcf72a316c4767e904f285a812d00db802a5aa4c04f54fc4e0c7aa3571f354594f4bd07
+
+Package: htop
+Architecture: aarch64
+Installed-Size: 204
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.2.0-2
+Homepage: https://hisham.hm/htop/
+Depends: ncurses, libandroid-support
+Description: Interactive process viewer for Linux
+Filename: dists/stable/main/binary-aarch64/htop_2.2.0-2_aarch64.deb
+Size: 55352
+MD5Sum: d8d8a149bea2054a0a2a05709fc3c7e7
+SHA1: 92f5ef7e7a411a18e8189491c0ac0341d226f1b2
+SHA256: 80f998b8ff2f2c94b40bc3160d936fe26e5cc583906693dd739921d56e1d2af9
+SHA512: 496209a38b68d15b8a6976ce1217bf94a04d3b6fa1e11fc4d28b8d72e054dc89fff606e06c64c44702876a8c221bdda62392edfd56789c21495a675760058017
+
