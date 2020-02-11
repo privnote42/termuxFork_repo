@@ -1,0 +1,93 @@
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 36
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.4.9-25
+Homepage: https://packages.debian.org/apt
+Depends: tor, apt (= 1.4.9-25)
+Description: APT transport for anonymous package downloads via Tor
+Filename: dists/stable/main/binary-all/apt-transport-tor_1.4.9-25_all.deb
+Size: 846
+MD5Sum: 8a0489702b525b9232f0bde26b7885bb
+SHA1: 083388f9de3a6b3e14c357fb2493385ad4ff60a4
+SHA256: ef59cf6367b5e21b100ea1688c17b52b44ce977e2c7ec6475e5e844884f23314
+SHA512: f2e72d7c3bcfa61228132d3bd68f728a35b14785c8a5a7cf7211475af2fc9a063130789484ff6c5168de305be9bfdbb1b4c62acf711271e1b6e370350dcd16a9
+
+Package: ca-certificates-java
+Architecture: all
+Installed-Size: 208
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20200101
+Homepage: https://curl.haxx.se/docs/caextract.html
+Depends: ca-certificates (= 20200101)
+Description: Common CA certificates (java keystore format)
+Filename: dists/stable/main/binary-all/ca-certificates-java_20200101_all.deb
+Size: 110272
+MD5Sum: b685c7184bfd0d99fbf2aac26e4b8819
+SHA1: 2bcbd85308a427770529b95ffd27e0ee882e2bd7
+SHA256: e9d1869487a98d7abecb25ea64479424cc11d903e5645d02925e9e1b4b33b925
+SHA512: 2f4fb99b76eef9c85669938de176ee0d4d4a19a47ccca8d100ab08a3b5651945ebef40bc7df159f69bb31b0094642fdd0c162ddac28cf2a14800ce979e08795e
+
+Package: ca-certificates
+Architecture: all
+Installed-Size: 264
+Maintainer: Fredrik Fornwall @fornwall
+Version: 20200101
+Homepage: https://curl.haxx.se/docs/caextract.html
+Description: Common CA certificates
+Filename: dists/stable/main/binary-all/ca-certificates_20200101_all.deb
+Size: 121594
+MD5Sum: 8f6be8da7761b3ba30002ff847daf97c
+SHA1: 640a3dc6dc7b3f993a48a65a76fc9b6651f2dcb9
+SHA256: 5d19ee64f1bc43ddb06b59f3c24c911d908e6d66df86705bb0832d4387f72653
+SHA512: faa8a817deefc1a2591613949dc9b313bd1b8c1dd56047e79f7e0d8513eb94127dda8226a7209db40946d22e8fb8f5f7fa1817430ccbea7b42eb4f6629eac79a
+
+Package: termux-am
+Architecture: all
+Installed-Size: 72
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.3
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Filename: dists/stable/main/binary-all/termux-am_0.3_all.deb
+Size: 17004
+MD5Sum: c0921fb32ed86a59f08cfca30a06c0d5
+SHA1: 16473a01e2384ab328ee115c57e7b444f636a250
+SHA256: b385059ac482fc0e2f43c0ef9028e3485b9d193b705da3990b9abf01d0751707
+SHA512: 641c9b654f01b76e3fb50325a9ebf5341ac5e17828719a37a3c589a2e59b65cb53a760434b22eb9b4e68f126c16fc777c7b83c880c41a475c3014a536396f0ce
+
+Package: termux-licenses
+Architecture: all
+Installed-Size: 404
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0
+Homepage: https://termux.com
+Essential: yes
+Description: Contains LICENSE files for common licenses
+Filename: dists/stable/main/binary-all/termux-licenses_1.0_all.deb
+Size: 54768
+MD5Sum: 0652ca329cd0420d61f0004f5055b46c
+SHA1: c64712a59d294faa6e471c6c3da1175fe122987d
+SHA256: b0249055109f386d53211d2da8db11f523bc314e03202fc1b81e9b20a7befad6
+SHA512: 459be49c00c55c7c4ea8d0cae57c3f305e617e6396a1abae6c389dbf9a5a303f75f50d3fd3c526de20e26e64c5e031d063b222cfa4314951b6f63a6d11ab13e0
+
+Package: termux-tools
+Architecture: all
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.74
+Homepage: https://termux.com/
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am, termux-exec, xz-utils
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
+Suggests: termux-api
+Description: Basic system tools for Termux
+Filename: dists/stable/main/binary-all/termux-tools_0.74_all.deb
+Size: 4822
+MD5Sum: d374dd5d23bf5070440d748533115ee4
+SHA1: e1204c7f6b83651d2237736e7f4b216cabf239e6
+SHA256: d237e8dd29ca7107d1797df3dcb8dadbc03aab43cb22b21afea84bc4b23f29bc
+SHA512: 090b9a0d616e57c9f8a5de9c8804eb5d1457e49966e2fb043d78aa1dbdae94431327e12f3cc062bfb87b2f09dbce256164192cc5da97de9ba64118ed8ec8b79a
+
