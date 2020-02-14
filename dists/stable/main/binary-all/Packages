@@ -7,11 +7,11 @@ Homepage: https://packages.debian.org/apt
 Depends: tor, apt (= 1.4.9-25)
 Description: APT transport for anonymous package downloads via Tor
 Filename: dists/stable/main/binary-all/apt-transport-tor_1.4.9-25_all.deb
-Size: 846
-MD5Sum: 8a0489702b525b9232f0bde26b7885bb
-SHA1: 083388f9de3a6b3e14c357fb2493385ad4ff60a4
-SHA256: ef59cf6367b5e21b100ea1688c17b52b44ce977e2c7ec6475e5e844884f23314
-SHA512: f2e72d7c3bcfa61228132d3bd68f728a35b14785c8a5a7cf7211475af2fc9a063130789484ff6c5168de305be9bfdbb1b4c62acf711271e1b6e370350dcd16a9
+Size: 856
+MD5Sum: 5a7f6387bc0f657c65c3a70311a2c0df
+SHA1: bda351265bcab49d052defb509c1a744cefc3584
+SHA256: 068a5e2bb3f36596cc6bc141451f8ac0c1cf54092daa3ba6ec319db01bfadcd0
+SHA512: 8a8bbf36113b0860bd16310425902736f98fd1d926a7ec7261a883a93750e9245d43e3cfce363fcfa5bd4185d8f363c30d0743dc0b37343a1461b7952da11189
 
 Package: ca-certificates-java
 Architecture: all
@@ -22,11 +22,11 @@ Homepage: https://curl.haxx.se/docs/caextract.html
 Depends: ca-certificates (= 20200101)
 Description: Common CA certificates (java keystore format)
 Filename: dists/stable/main/binary-all/ca-certificates-java_20200101_all.deb
-Size: 110272
-MD5Sum: b685c7184bfd0d99fbf2aac26e4b8819
-SHA1: 2bcbd85308a427770529b95ffd27e0ee882e2bd7
-SHA256: e9d1869487a98d7abecb25ea64479424cc11d903e5645d02925e9e1b4b33b925
-SHA512: 2f4fb99b76eef9c85669938de176ee0d4d4a19a47ccca8d100ab08a3b5651945ebef40bc7df159f69bb31b0094642fdd0c162ddac28cf2a14800ce979e08795e
+Size: 110310
+MD5Sum: e1e4ce51da8231caea1f26ae09e27a4c
+SHA1: ad42162df5f0478fe2555bed3a8959a76c1b0a4b
+SHA256: 6ecfdb6b41e9cf0db9e4a15fba89213a9788d0e77a87bbb26cfb92de9777f116
+SHA512: bdbbbb0dd30879f3061837b86d3ed21cc6be4c859c0dc30700da496626b15b1a854abe8ff024c77891464dbfc1177a9f7a47fc62ac1f57d021962c146b2fae63
 
 Package: ca-certificates
 Architecture: all
@@ -36,11 +36,11 @@ Version: 20200101
 Homepage: https://curl.haxx.se/docs/caextract.html
 Description: Common CA certificates
 Filename: dists/stable/main/binary-all/ca-certificates_20200101_all.deb
-Size: 121594
-MD5Sum: 8f6be8da7761b3ba30002ff847daf97c
-SHA1: 640a3dc6dc7b3f993a48a65a76fc9b6651f2dcb9
-SHA256: 5d19ee64f1bc43ddb06b59f3c24c911d908e6d66df86705bb0832d4387f72653
-SHA512: faa8a817deefc1a2591613949dc9b313bd1b8c1dd56047e79f7e0d8513eb94127dda8226a7209db40946d22e8fb8f5f7fa1817430ccbea7b42eb4f6629eac79a
+Size: 121598
+MD5Sum: ea5a376e1657896f1e0784fd70d8bd94
+SHA1: 4a46f56f2fdf6d2b02c48f33701c72792e6beb0c
+SHA256: 73adf5892eb80508c32cf639dbf3b21f631cc854e23aa516a278acc1d36bef43
+SHA512: ca90aef1ea4eea5b1f7798028d58332273d41693e6b4584cc884f9f284f2c6a6f76ee687a4bd853e0b6c47a696966ccf2127760c4cedc8558d64d0087ef60bc9
 
 Package: termux-am
 Architecture: all
@@ -51,11 +51,11 @@ Homepage: https://github.com/termux/TermuxAm
 Conflicts: termux-tools (<< 0.51)
 Description: Android Oreo-compatible am command reimplementation
 Filename: dists/stable/main/binary-all/termux-am_0.3_all.deb
-Size: 17004
-MD5Sum: c0921fb32ed86a59f08cfca30a06c0d5
-SHA1: 16473a01e2384ab328ee115c57e7b444f636a250
-SHA256: b385059ac482fc0e2f43c0ef9028e3485b9d193b705da3990b9abf01d0751707
-SHA512: 641c9b654f01b76e3fb50325a9ebf5341ac5e17828719a37a3c589a2e59b65cb53a760434b22eb9b4e68f126c16fc777c7b83c880c41a475c3014a536396f0ce
+Size: 17020
+MD5Sum: d040aad2b64e2e41a9063f4aad8fe3ac
+SHA1: 847383f5a5a09fccae4acd0e622932950f8f2938
+SHA256: 50f31564cdff6de2a450143315916b7bbed2dbd93610d1fe0af7c032a6bd52b8
+SHA512: 240c7300b62157bc0802fda62edadb370b7d86cf84bdb1fe6149de447d4a1cc88ac029326eeceb4c3a8a969cb354b78a86a4056012f7a274a98657835f7df620
 
 Package: termux-licenses
 Architecture: all
@@ -66,11 +66,11 @@ Homepage: https://termux.com
 Essential: yes
 Description: Contains LICENSE files for common licenses
 Filename: dists/stable/main/binary-all/termux-licenses_1.0_all.deb
-Size: 54768
-MD5Sum: 0652ca329cd0420d61f0004f5055b46c
-SHA1: c64712a59d294faa6e471c6c3da1175fe122987d
-SHA256: b0249055109f386d53211d2da8db11f523bc314e03202fc1b81e9b20a7befad6
-SHA512: 459be49c00c55c7c4ea8d0cae57c3f305e617e6396a1abae6c389dbf9a5a303f75f50d3fd3c526de20e26e64c5e031d063b222cfa4314951b6f63a6d11ab13e0
+Size: 54780
+MD5Sum: 49c6f73fd5fe3d0e89d82bdefa5e6858
+SHA1: 0f7a86eb5da97d24771be5c96a61957b6963ed4a
+SHA256: 02456a79db5158783ae1f33efe03d25af96d2e075bcc1e94ba841688ef54da33
+SHA512: 1bffb0799feea4b7b0cc7862dbf2d8b3ad2d69b08c1bd9af37d0f4b5afeed2ebc58c36da3491e21547379ad0fc035d299ade6b096975874fef5c8e30af1cf85a
 
 Package: termux-tools
 Architecture: all
@@ -85,9 +85,9 @@ Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip, util-linux
 Suggests: termux-api
 Description: Basic system tools for Termux
 Filename: dists/stable/main/binary-all/termux-tools_0.74_all.deb
-Size: 4822
-MD5Sum: d374dd5d23bf5070440d748533115ee4
-SHA1: e1204c7f6b83651d2237736e7f4b216cabf239e6
-SHA256: d237e8dd29ca7107d1797df3dcb8dadbc03aab43cb22b21afea84bc4b23f29bc
-SHA512: 090b9a0d616e57c9f8a5de9c8804eb5d1457e49966e2fb043d78aa1dbdae94431327e12f3cc062bfb87b2f09dbce256164192cc5da97de9ba64118ed8ec8b79a
+Size: 4850
+MD5Sum: 40ca2636fda455d78c694b964e5d76fe
+SHA1: aa08e7454df0f03fbb49af7885e7b30fc087db3f
+SHA256: 8f546e9d2fe30a0b8c18cc18eef3714bab828fdc30c805dca7e98baa3808a747
+SHA512: a620fc557f5eadb4330400d5c4a878501a68e016724d243ef2eb98c5f5ce851e2ff9068917826450653e180514ef81cc48ce18bc93d154c8ccc01f363347b80d
 
