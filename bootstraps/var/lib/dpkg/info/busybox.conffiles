@@ -1,6 +1,0 @@
-/data/data/com.termux/files/usr/var/service/telnetd/run
-/data/data/com.termux/files/usr/var/service/telnetd/log/run
-/data/data/com.termux/files/usr/var/service/ftpd/run
-/data/data/com.termux/files/usr/var/service/ftpd/log/run
-/data/data/com.termux/files/usr/var/service/crond/run
-/data/data/com.termux/files/usr/var/service/crond/log/run
