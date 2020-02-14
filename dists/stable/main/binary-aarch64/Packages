@@ -1018,6 +1018,21 @@ SHA1: 9ff8e12ded0bb5ae687ad75da1671ea7e6a09201
 SHA256: caf497bb3afb58e3a716056f04c8160e1e464683e886f74e62dd83741bb345fe
 SHA512: d98c16f92dd8c64e8cdea7fb535e9ad1796a7cfd41fbf0ace7c152fbd82c4669dadd1585028909cfae1955609e2ae550bd206d28587a77c28a3546005514c95c
 
+Package: nano
+Architecture: aarch64
+Installed-Size: 808
+Maintainer: Fredrik Fornwall @fornwall
+Version: 4.8
+Homepage: https://www.nano-editor.org/
+Depends: libandroid-support, libandroid-glob, ncurses
+Description: Small, free and friendly text editor
+Filename: dists/stable/main/binary-aarch64/nano_4.8_aarch64.deb
+Size: 196924
+MD5Sum: 953ae82663d4b2722ed9d6187e470209
+SHA1: 860691c07ace76cddfb550ce5cc453e752e204e9
+SHA256: 3e19a3af8f6b2846dd3286204cb80c3572dfcd38665512aa487eff6901f03ac9
+SHA512: 616ab8776a71326302d9e44b94a2c7d353d7e67ac48e7ad317513729efee6a451d127567759c8f7214bccd376766cc70d0aaea78a56fd383c22bb8f398d9361b
+
 Package: ncurses-static
 Architecture: aarch64
 Installed-Size: 720
