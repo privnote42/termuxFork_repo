@@ -83,6 +83,38 @@ SHA1: 6ea093fdd522f226f4928d1fb4510f52dc39fafd
 SHA256: 928a358c4a29171d7997ec3c270f8453321be3240091f646f4e29484245ece46
 SHA512: 0d284296000882f6fb7eba1f26e76f94790a6163d6ce9e8274f7a8f3c3d7044805a8d593207ce5cbdfaff332b78721c146b5d2ea51fd415c9bb76746bf2f106a
 
+Package: ccnet-static
+Architecture: aarch64
+Installed-Size: 252
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.8-1
+Homepage: https://github.com/haiwen/ccnet
+Depends: ccnet (= 6.1.8-1)
+Description: Static libraries for ccnet
+Filename: dists/stable/main/binary-aarch64/ccnet-static_6.1.8-1_aarch64.deb
+Size: 36738
+MD5Sum: 9d786bea8bd8723334a50cb8bac96f6b
+SHA1: 0f4b39da0ef22e123a148926cb27c8b91ed1ff71
+SHA256: cd78607a5b37052082a7b9fe1a8a803759adf662debf663bb7ec614084e5c5b2
+SHA512: a31f7e67905a46648ed0dc14e6f84af9eb7224a3be73c1c793f1730ab2b30a3cd686b6ccd85456b8a3b3a73c967b2268d06ca5252d52e931933646dd0438c423
+
+Package: ccnet
+Architecture: aarch64
+Installed-Size: 736
+Maintainer: Fredrik Fornwall @fornwall
+Version: 6.1.8-1
+Homepage: https://github.com/haiwen/ccnet
+Breaks: ccnet-dev
+Depends: libuuid, libevent, libsearpc, libsqlite, openssl
+Replaces: ccnet-dev
+Description: Ccnet is a framework for writing networked applications in C
+Filename: dists/stable/main/binary-aarch64/ccnet_6.1.8-1_aarch64.deb
+Size: 97430
+MD5Sum: b00c0cc86619472120d7d340fc7a5dfc
+SHA1: b5edb9e5d468b66fe5d4c15a5201c1753639b11c
+SHA256: 27e4e3577a9206615947666a3a99864098570520ca4255dae5553d46b8242099
+SHA512: ebab4add5bf312d921a921704ead66256a2cc20ffbc3e1d95a28c3a04d3d1d8c6ec7c5c57377f51d3b76bb5af6e07668ecb224b05e084c3bf5c250c7e8b6731e
+
 Package: command-not-found
 Architecture: aarch64
 Installed-Size: 264
@@ -243,6 +275,70 @@ MD5Sum: fdb280da000bf55300b8cfca18cce11e
 SHA1: c9e485f26ba0200156a5c91aa2d3ebe7ac54e9d9
 SHA256: e879c1a7772509404bc3a6db2a1bbebee6486ebccf6ffdb837e09b31cc43430e
 SHA512: f38826d9650e6932235cc6b94970229a3bfcb80f8eb3b449a774d039668c5fba6720f109c8d4cc577d691baf168354050c322fb35147b8db2239bcb258f8ef20
+
+Package: gdbm-static
+Architecture: aarch64
+Installed-Size: 156
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Depends: gdbm (= 1.18.1-3)
+Description: Static libraries for gdbm
+Filename: dists/stable/main/binary-aarch64/gdbm-static_1.18.1-3_aarch64.deb
+Size: 24738
+MD5Sum: 54615740989fd3346d3b354ee45b011a
+SHA1: 2e484b46b28e65b16d75c498a8fc1b5aa792d82d
+SHA256: 8bddf6c2688e90cf47acd5871f0b9c65ca8a9aed7b057d821dc8290d61c7d338
+SHA512: 89a0ca44ae2aba55059b5ca6f2d8e826242fd4bcfb39eb934096f7406417991e977449316c5f4fa4cbce2e9e45db5deac8f2dc8b4c5a21435f9a20e6864b5572
+
+Package: gdbm
+Architecture: aarch64
+Installed-Size: 440
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.18.1-3
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Breaks: gdbm-dev
+Depends: readline
+Replaces: gdbm-dev
+Description: Library of database functions that use extensible hashing
+Filename: dists/stable/main/binary-aarch64/gdbm_1.18.1-3_aarch64.deb
+Size: 102290
+MD5Sum: 4968a5b2eb89e1e8f9e2c14c02ae02f2
+SHA1: aad919483de6ee9200bef995166c231e8fce5885
+SHA256: aaa9b72817d88da5446d98fdd56a377673ac7916096a2afe35b57d20006d0fee
+SHA512: 0e3d012b3f58cb174e89347136478b995f32763cf0400684b07c49e20cb66114866dd8201edb0d335e0abab0cd648f69ebe9638ac3aa57e3ef7041f2dfb0aee1
+
+Package: glib-bin
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.62.4-2
+Homepage: https://developer.gnome.org/glib/
+Depends: glib (= 2.62.4-2)
+Description: Programs for the GLib library
+Filename: dists/stable/main/binary-aarch64/glib-bin_2.62.4-2_aarch64.deb
+Size: 78382
+MD5Sum: 5a67da0d2b7dd1f2011e84e405d81541
+SHA1: ef5a216cadec7450aea0d75f4e2cfc7e132ec7c9
+SHA256: 633ce04b9797fa14f448f41c43bc2f525b11b3c81f9cf2a27457108eeb1519e5
+SHA512: 92d0119f87eaee358ef84fc4cd7bd23c8ab4793c6e3bb2a194317f1558b66143843d38cd67184281e2ee0087856aac2eb0940aea3fff64882d1ae0c96b56a504
+
+Package: glib
+Architecture: aarch64
+Installed-Size: 5436
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.62.4-2
+Homepage: https://developer.gnome.org/glib/
+Breaks: glib-dev
+Depends: libffi, libiconv, pcre, libandroid-support, zlib
+Replaces: glib-dev
+Description: Library providing core building blocks for libraries and applications written in C
+Filename: dists/stable/main/binary-aarch64/glib_2.62.4-2_aarch64.deb
+Size: 1027002
+MD5Sum: d2cd3db456701f9d88a41057eab52c1d
+SHA1: 2dd2c69e99fe9fdb903a512c3f0bf49ebfbf2a0b
+SHA256: b2c2076a70b59e234e0fc55d78f69c443a2c8020745cb5597aee2c9508838aeb
+SHA512: 2e543ebe518b5cc9e9bb20e5dbf4a126cb51b7a7bebfe83110206a2126dc3def8454962bab6dc2ae913c9277eef93dd09231438661a9063be05f7af507726fcb
 
 Package: gnupg
 Architecture: aarch64
@@ -479,6 +575,23 @@ SHA1: 4928af9676ab8da89c85b8af0a401b174f118ce5
 SHA256: a47c1c92ea4c742fd9208dec9559c4434a884b9dcdd14571cb261865883e5270
 SHA512: d93f8bba657579c22a3137c330d687e041312368411a98b71d5f39b1ddfb5f281cc95f1c2a39cd8beb4f49ec6728221b69ad273ad81d3a6f7a069120ce230976
 
+Package: libcrypt
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: Fredrik Fornwall @fornwall
+Version: 0.2-2
+Homepage: http://michael.dipperstein.com/crypt/
+Breaks: libcrypt-dev
+Depends: openssl
+Replaces: libcrypt-dev
+Description: A crypt(3) implementation
+Filename: dists/stable/main/binary-aarch64/libcrypt_0.2-2_aarch64.deb
+Size: 8074
+MD5Sum: 775f41d63db7d687cb12c1daf3d405ed
+SHA1: 1605b673cca2d05c1b15ef19a22a3d498c3f2b5e
+SHA256: 36435a95300262ca1b24d6fdcd2e1404075c6a5219b13f4e8eea24f5deca28ab
+SHA512: ad1464b1eea42978a795374c2f3e6ee4bfce3c6684e5f8779d8aace0496baf0e220ac87fb84dd590722c088d781b985ee493268af03ac1a272e8e3373a03b443
+
 Package: libcurl-static
 Architecture: aarch64
 Installed-Size: 904
@@ -559,6 +672,37 @@ MD5Sum: 883f226b4aa2979ade7ad695fac847ef
 SHA1: 92c68136e407eaa0c494bf80670b3c17fc08bca1
 SHA256: 591f208a2b392b6c4023dc9f5e7f09e4b5f91febc77290049d1980a2048a3637
 SHA512: 403c8e076f56c3a50cdae45c59f818a905f9d522ce0adc3200e0d9dd5eb4e9d5afe41ec40e31b6a0324f8d0baf5a03b671a0b5095930b27310e94129a5635c2b
+
+Package: libffi-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Homepage: https://sourceware.org/libffi/
+Depends: libffi (= 3.3)
+Description: Static libraries for libffi
+Filename: dists/stable/main/binary-aarch64/libffi-static_3.3_aarch64.deb
+Size: 13980
+MD5Sum: 52b98f842a4c82333f8510c63da1d61a
+SHA1: b0c882f621dff1e49ad8d71ca8df3526235a26ce
+SHA256: 867446839385269ee3ccba62a58b27767eeb6ed4722336cdeac31e3cecef419c
+SHA512: ba09082ad23a0b863aeac95d82b2f2b1f3286314cb9b51e0fb305dff28242dabc1bb0ca7fe2f6b53f8a5efda7356cc289b6ae53894b98663aa4451922a8cd4b0
+
+Package: libffi
+Architecture: aarch64
+Installed-Size: 172
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.3
+Homepage: https://sourceware.org/libffi/
+Breaks: libffi-dev
+Replaces: libffi-dev
+Description: Library providing a portable, high level programming interface to various calling conventions
+Filename: dists/stable/main/binary-aarch64/libffi_3.3_aarch64.deb
+Size: 28466
+MD5Sum: efa7a05aed23c184f54f5d27fde834c4
+SHA1: 46d6a629378c5901a9f88d671d12a7157f3eca45
+SHA256: 470fb72219cb50ec3e70d9c1c3799a2bdc500113adc18dbf4c237f03eeee0cef
+SHA512: 37687aded348d8b025289af8c9cd8c2d60b500429753d31be329e9703509f9fe08a09f63f9935b325aceda0338b027f952dd1c882340db3082663417892404e4
 
 Package: libgcrypt-static
 Architecture: aarch64
@@ -748,6 +892,37 @@ MD5Sum: 16920e5d097ed1a6be8cf5527568cbd5
 SHA1: c3fa9b9dd3573f7c175e0141748f0797e7d092af
 SHA256: 610428288fa4a91247e19e957139a017b053abef0b5d08c9059c30f5d4b8df57
 SHA512: 512d8a9a59343265245dbfb39a91f827c79becc067176cd96ae8f652929d79bc485cc8b881d656bd107200c604f442c2e67178cb74ec456fbbb6f9d1a2d04055
+
+Package: libjansson-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12-1
+Homepage: http://www.digip.org/jansson/
+Depends: libjansson (= 2.12-1)
+Description: Static libraries for libjansson
+Filename: dists/stable/main/binary-aarch64/libjansson-static_2.12-1_aarch64.deb
+Size: 22588
+MD5Sum: 5f2213e9a65e06469060f3c5e9337bed
+SHA1: 66fe7cb1e9b2cb63b40ab4ab554648f45295d8f3
+SHA256: 755d83b6e39708bb5fd47e39cdf7c5bf85c1c3c0f89da4f8270175342f99d1b5
+SHA512: b42b05c982407d6ee8e8c95599f31e3681a562aeed758c6002c17ed0e5a6d0e25495f3f0df1efcb1fdaa4cf83889c35f09945b7199422bbc3ffc658f60136af4
+
+Package: libjansson
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.12-1
+Homepage: http://www.digip.org/jansson/
+Breaks: libjansson-dev
+Replaces: libjansson-dev
+Description: C library for encoding, decoding and manipulating JSON data
+Filename: dists/stable/main/binary-aarch64/libjansson_2.12-1_aarch64.deb
+Size: 21152
+MD5Sum: abab235a5c12ab5bb7cc603d1280474f
+SHA1: 6961bd50d3e1580ab289a24a69835630e75cd97d
+SHA256: c89a06ae36db74caf50495815d1b32f9f57b29743d237f64e84cc58b74b08079
+SHA512: deb2fd7e012c4e2cde14ed2529aec2dd9c06d4fc7d29797fce556f9ec1bef0d1daf37e7906aec2009028aa3421775938ba26bae77b751ee760c4f8fa4aac11b3
 
 Package: libksba-static
 Architecture: aarch64
@@ -954,6 +1129,38 @@ SHA1: f6b0d3c7b68bbb08b9e81080b721e01a946e2936
 SHA256: c0158006d472038d2d34baad6c01a478f2aa139390c23846bf4d7eeae8c73835
 SHA512: 07e99132295ff1ec1b84d020f717335b0c133aeedb86fe626c02382588c6213221b84217d0787ce4ebe553a1b45e52c40e7aeb0e4b9c147fe3059e9889358718
 
+Package: libsearpc-static
+Architecture: aarch64
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-1
+Homepage: https://github.com/haiwen/libsearpc
+Depends: libsearpc (= 3.2-1)
+Description: Static libraries for libsearpc
+Filename: dists/stable/main/binary-aarch64/libsearpc-static_3.2-1_aarch64.deb
+Size: 13110
+MD5Sum: 2b185abd99deb2630e069cedb38bc980
+SHA1: 8a0b186dddccad08faf73dec96444aaaa5264d23
+SHA256: fade33019d9da8f676199f2d001b2c27a6e0acad15ce028248c08751b1fd72a0
+SHA512: 47cd7a649662b29edbc481083ac445020263030986d1edf2889ee95f93983f969a43a7019fd4cb5388d8632776b0a2855994bef1c33ef3017b74eaa2cd2d6fad
+
+Package: libsearpc
+Architecture: aarch64
+Installed-Size: 256
+Maintainer: Fredrik Fornwall @fornwall
+Version: 3.2-1
+Homepage: https://github.com/haiwen/libsearpc
+Breaks: libsearpc-dev
+Depends: glib, libjansson
+Replaces: libsearpc-dev
+Description: A simple C language RPC framework (mainly for seafile)
+Filename: dists/stable/main/binary-aarch64/libsearpc_3.2-1_aarch64.deb
+Size: 22880
+MD5Sum: c06f98fea35dd84dda54f989dbf706d0
+SHA1: 28aa125404156df8d42386f9e9f57c4031f9e220
+SHA256: 3c7a4b203563b866998ecc6c3688199a304e8ef9c76fc16a154cdc289899537c
+SHA512: 12f24da76e3f743cd74c43371cf82482b0ddda00bc12a8e531b19896d417b15364c3cbcc2951f1e7034d458dc30ee817b22c7ae78317432354158f588a3e9f5a
+
 Package: libsqlite-static
 Architecture: aarch64
 Installed-Size: 1280
@@ -1017,6 +1224,37 @@ MD5Sum: 35c9f9b388b18e3fb90d3f87131a3879
 SHA1: 9ff8e12ded0bb5ae687ad75da1671ea7e6a09201
 SHA256: caf497bb3afb58e3a716056f04c8160e1e464683e886f74e62dd83741bb345fe
 SHA512: d98c16f92dd8c64e8cdea7fb535e9ad1796a7cfd41fbf0ace7c152fbd82c4669dadd1585028909cfae1955609e2ae550bd206d28587a77c28a3546005514c95c
+
+Package: libuuid-static
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-3
+Homepage: https://sourceforge.net/projects/libuuid/
+Depends: libuuid (= 1.0.3-3)
+Description: Static libraries for libuuid
+Filename: dists/stable/main/binary-aarch64/libuuid-static_1.0.3-3_aarch64.deb
+Size: 5774
+MD5Sum: 87a39067e214c8e6aea63e678569979a
+SHA1: 2a02f8423eebff7b73cc52e60908a30fd70e82f3
+SHA256: 0c020a402adcb92efe5869464a53950fca2c67368aa212704c3e7c540b250946
+SHA512: 928b022b298242a7186b92cb5267dd3a4a78324b7ffe862b4a5e782d1621aee9f1ddc84f3188d023dcd30225a07abed948a7bb395db04e5db6a8c684845cded3
+
+Package: libuuid
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Fredrik Fornwall @fornwall
+Version: 1.0.3-3
+Homepage: https://sourceforge.net/projects/libuuid/
+Breaks: libuuid-dev
+Replaces: libuuid-dev
+Description: Portable uuid C library
+Filename: dists/stable/main/binary-aarch64/libuuid_1.0.3-3_aarch64.deb
+Size: 6432
+MD5Sum: 917a76d1be2d163993cb6548d7032fc7
+SHA1: ac788a2e11bbc04c1acf2057ac6ef837828f2829
+SHA256: ea3b8eedaadee3229b91b0bc8df277488c569d6385e1f40f3eec523b4aecbed9
+SHA512: 6af6ca9a4e92d03b1578636fb070c7585d7ad4676884b16f2c3021829ebb1d01293894e736756e9890c655eef6ccf80ef7a828f251e68119f22bd5cc4cfdd1a8
 
 Package: nano
 Architecture: aarch64
@@ -1267,6 +1505,38 @@ SHA1: 9142f23ae5d0ddc0a5f621582c23c7131394ae81
 SHA256: 06bb861f07bb9935e098bcefdeb0119c294f32660f4ffc969db29b70be136b37
 SHA512: 0b50c907c5e3f8a1e37bcc6681e061135dea11c665d9fd316ede8090231f23c0f018d77e9ff6659e9408d02018c85ef0093cb82be292922a16e149f8804f2566
 
+Package: python2-static
+Architecture: aarch64
+Installed-Size: 9892
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.17
+Homepage: http://python.org/
+Depends: python2 (= 2.7.17)
+Description: Static libraries for python2
+Filename: dists/stable/main/binary-aarch64/python2-static_2.7.17_aarch64.deb
+Size: 1721454
+MD5Sum: d7d89745c8358fdc37a1bd665c411355
+SHA1: 69123abca93ebbc1ecd3d976cd20580057956ab9
+SHA256: 23cbd33d7462b87e2cf65a6b91f30be9783f895c11d6b727f02a3cc9a7a51cfe
+SHA512: ce62ccd2882728ad93b1395eaedc775dbb5ca9226be4be6304a80cc9aae7ef8884fdecda0a705f0d9f6c1cb9134f1d80d9d27229e1d9a3d8865d4ac5833e0178
+
+Package: python2
+Architecture: aarch64
+Installed-Size: 18660
+Maintainer: Fredrik Fornwall @fornwall
+Version: 2.7.17
+Homepage: http://python.org/
+Breaks: python2-dev
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, zlib
+Replaces: python2-dev
+Description: Python 2 programming language intended to enable clear programs
+Filename: dists/stable/main/binary-aarch64/python2_2.7.17_aarch64.deb
+Size: 4847908
+MD5Sum: a730cf5a23ec229ba7288731e23dfc05
+SHA1: 3a557456bdbd6f210435015c906c622f7b0e80b8
+SHA256: 03a77249ab304b78394e70f6b2a98a4c30b3aaff8304e75323749069b3e3890a
+SHA512: 2aac678d21de420d6667a56f4229e34ceed4c10f12bdfb14154de8fa1628099d20f01d259a94aa7b107ecd622a2c6388885193579f3a4e0efe451fee3fe000a2
+
 Package: readline-static
 Architecture: aarch64
 Installed-Size: 652
@@ -1312,6 +1582,38 @@ MD5Sum: ab6335ea91190f7f82cbebae20684ad3
 SHA1: 32573df9362c8aaaabfb5ca13d4a4e0a27998767
 SHA256: 0f4cfc6b1fcc9460a7b289311d3feebe62aef25c80f1e7311f1f5c6a25c55ae0
 SHA512: 623f96a01ec6bb4aa73fd468353aa7ed33b14229a9e15a940442e4d6cc654babfc46fc9cf85823b91d7878dd798ccf14719c21826ecfc7caa97042eaeaf6b1dd
+
+Package: seafile-client-static
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.5
+Homepage: http://seafile.com
+Depends: seafile-client (= 7.0.5)
+Description: Static libraries for seafile-client
+Filename: dists/stable/main/binary-aarch64/seafile-client-static_7.0.5_aarch64.deb
+Size: 15872
+MD5Sum: bc21b562d279548692f28ef06254d030
+SHA1: 2a1c8c00fd04b0769dc8d26af36380a36b324297
+SHA256: 4657a3e786fea978908b6d9e2b218a900b652b94a20df226c320cd380286307f
+SHA512: 2d1e5a09a47b2eee8908ecd671193be049562ce3230799d5634e65d74e0802885ecf8b399da3ac095d0e9626089f7170646f42aee655801a3acba501e0751ec1
+
+Package: seafile-client
+Architecture: aarch64
+Installed-Size: 576
+Maintainer: Fredrik Fornwall @fornwall
+Version: 7.0.5
+Homepage: http://seafile.com
+Breaks: seafile-client-dev
+Depends: ccnet, libcurl, python2
+Replaces: seafile-client-dev
+Description: Seafile is a file syncing and sharing software with file encryption and group sharing
+Filename: dists/stable/main/binary-aarch64/seafile-client_7.0.5_aarch64.deb
+Size: 126456
+MD5Sum: 11efb828fe6965871764766fdf846249
+SHA1: 1c5665a07057f45b433497411ea3ecb607743164
+SHA256: a5cd2af542dcf1d6bb63142c282aef14fc381598865a487529e3cedcdf2ad1e3
+SHA512: 6dbd6f75ae8a40ca4ff3c01dae2454c087f0e964bf1617f9536aa9d48f8e5354e88758746c100087362aa37fd4ad39212ed6dab1395072e0d47151106f4dcca1
 
 Package: sed
 Architecture: aarch64
